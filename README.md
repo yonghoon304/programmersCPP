@@ -27,4 +27,32 @@ C++ 코딩문제풀이
 7. [문자열 붙여서 출력하기](./level0/07/07.cpp)
     - `문자열(string)+문자열 가능!!`
 8. [문자열 돌리기](./level0/08/08.cpp)
-9.
+9. [홀짝 구분하기](./level0/09/09.cpp)
+`10`. [문자열 겹쳐쓰기](./level0/10/10.cpp)
+    - include \<vector\>
+        - **기본 함수**
+        - 동적으로 늘어났다가 줄어드는 배열을 사용하기 위한 헤더.
+        - push_back() - 뒤에 데이터 추가
+        - pop back() - 맨 뒤 데이터 삭제
+        - size() - 길이
+        - empty() - 비었는지 확인
+        - clear() - 모든 데이터 삭제
+        - insert(위치,넣을 값) - 중간에 데이터 삽입
+        - erase(삭제 인덱스) - 중간에 데이터 삭제
+        - erase(시작 인덱스,마지막 인덱스) - 중간 범위 데이터 삭제
+        - begin() - 시작 `주소`
+        - end() - 마지막 `주소`
+        - front() - 시작 `값`
+        - back() - 마지막 `값`
+
+        - **최적화 함수**
+        - reserve() - push_back은 메모리 공간이 없을 시 >> 새 메모리 생성 + 기존 메모리 복사 => 느림
+            - reserve(1000)은 미리 공간을 확보, 빠름
+        - emplace_back() - push_back은 새 객체 생성 + 복사를 하지만 emplace_back은 vector안에 바로 복사.
+        - remove(v.begin(), v.end(), value) - 범위 내에서 value과 같은 숫자를 제외하고 앞으로 복사.
+            - ex) value=2, 123242 >> 134242 앞으로 복사만 할뿐 뒷메모리를 삭제하질 않음
+            - v.erase(remove(v.begin(), v.end(), value), v.end()); 
+            - remove()함수는 유효데이터 새로운 끝 위치를 반환함. 
+        
+    
+    
