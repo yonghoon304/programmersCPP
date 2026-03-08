@@ -53,6 +53,16 @@ C++ 코딩문제풀이
             - ex) value=2, 123242 >> 134242 앞으로 복사만 할뿐 뒷메모리를 삭제하질 않음
             - v.erase(remove(v.begin(), v.end(), value), v.end()); 
             - remove()함수는 유효데이터 새로운 끝 위치를 반환함. 
-        
+11. [문자열 섞기](./level0/11/11.cpp)
+    - 문자열에서 push_back이랑 + 차이점
+        - push_back - char형만 붙일 수 있음
+            - vector\<string\>의 push_back은 string 추가 가능
+        - +,+= - char,string 모두 가능
+12. [문자 리스트를 문자열로 변환하기](./level0/12/12.cpp)
+    - vector\<string\> arr 이란 문자열을 여러 개 저장하는 동적 배열.
+13. [문자열 곱하기](./level0/13/13.cpp)
+14. [더 크게 합치기](./level0/14/14.cpp)
+    - ![alt text](image.png)
+15. [두 수의 연산값 비교하기](./level0/15/15.cpp)
     
     

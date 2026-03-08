@@ -13,4 +13,9 @@
   <Project Path="08/08.vcxproj" Id="855822d9-dce5-4d57-b556-320df9b66c0b" />
   <Project Path="09/09.vcxproj" Id="d07a9729-575f-46eb-a739-f8bd5bc61069" />
   <Project Path="10/10.vcxproj" Id="1c00601c-ca5d-413f-a508-292869fa5772" />
+  <Project Path="11/11.vcxproj" Id="b04f3888-7f07-40a5-95b0-7b6ffdd44ac8" />
+  <Project Path="12/12.vcxproj" Id="4a0d0b97-b8e6-4bd1-b874-ac0ffca0bbf5" />
+  <Project Path="13/13.vcxproj" Id="66642021-cbab-4ed3-a317-28e37aee4cb9" />
+  <Project Path="14/14.vcxproj" Id="6e695ec8-c9ff-4ef4-8e1c-8335b5998ff3" />
+  <Project Path="15/15.vcxproj" Id="6205bcff-b316-49ab-b030-0f19a2815714" />
 </Solution>
